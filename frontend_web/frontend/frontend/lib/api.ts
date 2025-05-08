@@ -1,8 +1,8 @@
 // Frontend API service to connect with the backend
 
 // Base API URL - Fixed to ensure consistency
-const API_URL = 'http://localhost:8080';
-const PUBLIC_API_URL = 'http://localhost:8080';  // Changed to use the root URL
+const API_URL = 'https://backend-sa-redweb-production.up.railway.app';
+const PUBLIC_API_URL = 'https://backend-sa-redweb-production.up.railway.app';  // Production Railway backend URL
 
 // Simple utility to check if the API is accessible - export it for use in other functions
 export const checkApiStatus = async () => {
